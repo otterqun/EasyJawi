@@ -2,7 +2,7 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [main] # Pastikan ni nama branch kau. Kalau kau guna 'master', tukar ke 'master'
+    branches: [main]
 
 permissions:
   contents: read
