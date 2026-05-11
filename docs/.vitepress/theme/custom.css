@@ -5,6 +5,10 @@
   --vp-c-brand-1: #10b981; 
   --vp-c-brand-2: #059669; 
   --vp-c-brand-3: #047857; 
+
+    /* Jadikan warna latar belakang sedikit kelabu macam app, bukan putih kosong */
+  /* --vp-c-bg: #f7f7f7;  */
+
 }
 
 .dark {
@@ -12,4 +16,51 @@
   --vp-c-brand-1: #34d399; 
   --vp-c-brand-2: #10b981; 
   --vp-c-brand-3: #059669; 
+}
+
+/* 1. Efek Butang 3D ala Duolingo */
+.VPButton.brand {
+  border-radius: 16px; /* Butang bulat */
+  border-bottom: 4px solid var(--vp-c-brand-2); /* Efek tebal kat bawah */
+  transition: all 0.1s ease;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.VPButton.brand:active {
+  border-bottom: 0px solid var(--vp-c-brand-2);
+  transform: translateY(4px); /* Bila tekan, butang tenggelam */
+}
+
+.VPButton.alt {
+  border-radius: 16px;
+  border: 2px solid #e5e5e5;
+  border-bottom: 4px solid #e5e5e5;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.VPButton.alt:active {
+  border-bottom: 2px solid #e5e5e5;
+  transform: translateY(2px);
+}
+
+/* 2. Cantikkan Kotak Nota (Bite-sized learning) */
+.custom-block {
+  border-radius: 16px !important;
+  border: 2px solid #e5e5e5 !important;
+  box-shadow: 0 4px 0 #e5e5e5;
+}
+
+.custom-block.tip {
+  border-color: #89e219 !important;
+  background-color: #f1fadd;
+  box-shadow: 0 4px 0 #89e219;
+}
+
+/* 3. Sidebar W3Schools - bagi kemas sikit */
+.VPSidebar {
+  background-color: #ffffff;
+  border-right: 2px solid #e5e5e5;
 }

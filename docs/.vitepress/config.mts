@@ -16,7 +16,8 @@ export default defineConfig({
     // Menu kat bahagian atas (Navbar)
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Mula Belajar', link: '/hukum/pengenalan' }
+      { text: 'Mula Belajar', link: '/hukum/pengenalan' },
+      { text: 'Sumber Rujukan', link: '/random/sumber' }
     ],
 
     // Menu kat bahagian tepi (Sidebar) - Konsep W3Schools

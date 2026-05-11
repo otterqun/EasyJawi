@@ -1,0 +1,50 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.ref-card {
+  border: 1px solid var(--vp-c-bg-soft);
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ref-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--vp-c-brand);
+}
+
+.ref-card h4 {
+  margin: 0 0 10px 0 !important;
+  color: var(--vp-c-text-1);
+}
+
+.ref-card p {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+}
+
+.btn-ref {
+  display: inline-block;
+  background-color: var(--vp-c-brand);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-align: center;
+  transition: opacity 0.2s;
+}
+
+.btn-ref:hover {
+  opacity: 0.9;
+}

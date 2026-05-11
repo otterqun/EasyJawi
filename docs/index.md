@@ -3,21 +3,24 @@ layout: home
 
 hero:
   name: "TajwidMudah"
-  text: "Belajar Tajwid Kini Lebih Pantas"
-  tagline: Nota ringkas, padat dan mudah difahami berkonsepkan gaya moden.
+  text: "Belajar Tajwid Cara Santai!"
+  tagline: Kuasai hukum bacaan Al-Quran selangkah demi selangkah.
+  image:
+    src: /jawi.png
+    alt: Maskot Tajwid
   actions:
     - theme: brand
-      text: Mula Belajar Sekarang
-      link: /hukum/pengenalan
+      text: MULA SEKARANG
+      link: /hukum/idgham
     - theme: alt
-      text: Senarai Hukum
+      text: LIHAT SILIBUS
       link: /hukum/idgham
 
 features:
-  - title: ⚡ Nota Ala-W3Schools
-    details: Struktur yang kemas dengan sidebar di sebelah. Tak perlu pening cari nota, semua di hujung jari.
-  - title: 🌙 Dark Mode Terbina
-    details: Selesa membaca waktu malam tanpa sakit mata dengan sokongan tema gelap secara automatik.
-  - title: 📱 Mesra Telefon Pintar
-    details: Boleh dibuka di mana-mana sahaja, saiz paparan akan automatik mengikut skrin telefon anda.
+  - title: 📝 Belajar Ala W3Schools
+    details: Topik tersusun kemas kat tepi. Baca je terus faham!
+  - title: 🎮 Santai Macam Main Game
+    details: Nota pendek, padat, dan tak memboringkan.
+  - title: 📱 Mesra Mobile
+    details: Buka kat phone lancar je. Belajar kat mana-mana pun boleh.
 ---
