@@ -1,0 +1,15 @@
+/* docs/.vitepress/theme/custom.css */
+
+:root {
+  /* Ini warna untuk Light Mode (Hijau Zamrud) */
+  --vp-c-brand-1: #10b981; 
+  --vp-c-brand-2: #059669; 
+  --vp-c-brand-3: #047857; 
+}
+
+.dark {
+  /* Ini warna untuk Dark Mode (Biar hijau dia terang sikit) */
+  --vp-c-brand-1: #34d399; 
+  --vp-c-brand-2: #10b981; 
+  --vp-c-brand-3: #059669; 
+}
