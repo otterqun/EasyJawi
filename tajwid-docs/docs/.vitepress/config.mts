@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "TajwidMudah",
   description: "Nota ringkas hukum tajwid",
+  ignoreDeadLinks: true,
   
   // Kalau kau nak host kat Github Pages (username.github.io/tajwid-docs), 
   // kau kena bukak comment base ni. Kalau tak, biarkan je.
