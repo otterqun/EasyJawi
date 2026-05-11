@@ -7,7 +7,7 @@ export default defineConfig({
   
   // Kalau kau nak host kat Github Pages (username.github.io/tajwid-docs), 
   // kau kena bukak comment base ni. Kalau tak, biarkan je.
-  base: '/EasyJawi/', 
+  base: '/EasyTajwid/', 
 
   themeConfig: {
 
