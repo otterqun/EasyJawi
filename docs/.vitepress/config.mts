@@ -16,7 +16,7 @@ export default defineConfig({
     // Menu kat bahagian atas (Navbar)
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Mula Belajar', link: '/hukum/pengenalan' },
+      { text: 'Mula Belajar', link: '/random/pengenalan' },
       { text: 'Sumber Rujukan', link: '/random/sumber' }
     ],
 
@@ -25,7 +25,7 @@ export default defineConfig({
       {
         text: 'Asas Tajwid',
         items: [
-          { text: 'Pengenalan', link: '/hukum/pengenalan' },
+          { text: 'Pengenalan', link: '/random/pengenalan' },
         ]
       },
       {
@@ -42,7 +42,7 @@ export default defineConfig({
 
     // Link sosial / footer
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/username-kau' }
+      { icon: 'github', link: 'https://otterqun.github.io/EasyTajwid/' }
     ]
   }
 })

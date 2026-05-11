@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: MULA SEKARANG
-      link: /hukum/idgham
+      link: /random/pengenalan
     - theme: alt
       text: LIHAT SILIBUS
       link: /hukum/idgham
