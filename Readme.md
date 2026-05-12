@@ -9,27 +9,32 @@ https://otterqun.github.io/EasyTajwid/
 
 --- 
 
-## 🚀 Features
+## ✨ Features
 
-* Easy to use 
+- 📚 Pembelajaran tajwid yang mudah difahami
+- 🎨 Antaramuka yang ringkas dan mesra pengguna
+- ⚡ Dibangunkan menggunakan VitePress untuk prestasi yang pantas
+- 📱 Responsive design untuk desktop dan mobile
+- 🔍 Navigasi yang mudah untuk rujukan hukum tajwid
 
 ---
 
 ## 🛠 Tech Stack
 
-**FrameWork**
-* VitePress
+### Framework
+- VitePress
 
-**Frontend**
-
-* HTML
-* CSS
-* JavaScript
-
-
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
 ---
 
-## ⚠ Limitations
+## ⚠ Current Limitations
 
-* So far not well develop yet.
+- Projek masih dalam fasa pembangunan
+- Kandungan pembelajaran masih sedang ditambah baik
+- Belum mempunyai fungsi interaktif yang lengkap
+
+---
