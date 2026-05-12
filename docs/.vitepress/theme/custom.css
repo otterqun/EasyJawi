@@ -64,3 +64,58 @@
   background-color: #ffffff;
   border-right: 2px solid #e5e5e5;
 }
+
+/* --- POP-UP MODAL STYLE --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: none; /* Sembunyikan pada awalnya */
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal-overlay.show {
+  display: flex;
+  opacity: 1;
+}
+
+.modal-content {
+  background-color: var(--vp-c-bg);
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  transform: translateY(30px);
+  transition: transform 0.3s ease;
+  border: 2px solid var(--vp-c-divider);
+}
+
+.modal-overlay.show .modal-content {
+  transform: translateY(0);
+}
+
+.modal-title {
+  color: #10b981 !important;
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+  margin-top: 0 !important;
+  margin-bottom: 15px !important;
+  border: none !important;
+}
+
+.modal-text {
+  color: var(--vp-c-text-2);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}

@@ -1,30 +1,24 @@
-# 👨 VISIONFIT : AI EYEWEAR TRY-ON ASSISTANT USING DEEP LEARNING APPROACH
-
+# ﺝ Easy Tajwid
+ 
 # 📖 Project Overview
-
+Projek ini merupakan inspirasi dari keinginan belajar tajwid secara lebih mudah dan selesa , projek ini merupakan projek pesendirian dan tidak mengaut apa-apa keuntungan , jadi sumber yang digunakan merupakan sumber yang terdapat di internet . Sekiranya terdapat apa-apa isu boleh terus email ke saya muhdrafiqazizibinroslan@gmail.com
 
 # 👨‍💻 Live Demo 
 
----
+https://otterqun.github.io/EasyTajwid/ 
+
+--- 
 
 ## 🚀 Features
 
-* Real-time face detection (webcam)
-* Face shape classification using CNN
-* Rule-based glasses recommendation
-* Real-time AR overlay
-* Frontend + Backend API integration
+* Easy to use 
 
 ---
 
 ## 🛠 Tech Stack
 
-**Backend**
-
-* Python
-* Flask
-* TensorFlow / Keras
-* MTCNN
+**FrameWork**
+* VitePress
 
 **Frontend**
 
@@ -32,14 +26,10 @@
 * CSS
 * JavaScript
 
-**Model**
 
-* VGG16
 
 ---
 
 ## ⚠ Limitations
 
-* Works best with good lighting
-* Frontal face only
-* Frame size may not perfectly match real-world proportions
+* So far not well develop yet.
