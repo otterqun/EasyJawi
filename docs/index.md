@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: MULA SEKARANG
-      link: /random/pengenalan
+      link: pengenalan
     - theme: alt
       text: LIHAT SILIBUS
-      link: /hukum/idgham
+      link: /hukum/nun-mati/idgham
 
 features:
   - title: 📝 Belajar Ala W3Schools
@@ -30,7 +30,7 @@ features:
   <div class="modal-content">
     <h2 class="modal-title">✨ Selamat Datang!</h2>
     <!-- <p class="modal-text">Sedia untuk kuasai ilmu tajwid dengan lebih mudah dan interaktif? Jom kita mulakan perjalanan ini bersama-sama.</p> -->
-    <p class="modal-text">Projek ini masih di fasa pembangunan dan maklumat yang terkandung mungkin kurang tepat. Sila rujuk <a href="random/sumber" style="color: #10b981; font-weight: bold; ">"Sumber Rujukan"</a>.</p>
+    <p class="modal-text">Projek ini masih di fasa pembangunan dan maklumat yang terkandung mungkin kurang tepat. Sila rujuk <a href="sumber" style="color: #10b981; font-weight: bold; ">"Sumber Rujukan"</a>.</p>
     <button id="close-modal-btn" class="card-btn" style="width: 100%;">Bismillah, Jom Mula!</button>
   </div>
 </div>

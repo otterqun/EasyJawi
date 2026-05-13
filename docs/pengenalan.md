@@ -26,11 +26,6 @@ pageClass: lebar-penuh
 </div>
 
 <div class="grid-container">
-<a href="/hukum/pengenalan" class="topic-card">
-<h3 class="card-title">Pengenalan</h3>
-<p class="card-desc">Asas dan kepentingan ilmu tajwid dalam bacaan.</p>
-<span class="card-btn">MULA BELAJAR</span>
-</a>
 <a href="/hukum/makhraj" class="topic-card">
 <h3 class="card-title">Makhraj</h3>
 <p class="card-desc">Tempat keluar sebutan huruf Hijaiyah yang betul.</p>
@@ -41,12 +36,12 @@ pageClass: lebar-penuh
 <p class="card-desc">Hukum Alif Lam Qamariyah & Syamsiyah.</p>
 <span class="card-btn">MULA BELAJAR</span>
 </a>
-<a href="/hukum/nun-mati" class="topic-card">
+<a href="hukum/nun-mati/idgham" class="topic-card">
 <h3 class="card-title">Nun Mati</h3>
 <p class="card-desc">Izhar, Idgham, Iqlab & Ikhfa' Haqiqi.</p>
 <span class="card-btn">MULA BELAJAR</span>
 </a>
-<a href="/hukum/mim-mati" class="topic-card">
+<a href="/hukum/mim-mati/" class="topic-card">
 <h3 class="card-title">Mim Mati</h3>
 <p class="card-desc">Ikhfa' Syafawi, Idgham & Izhar Syafawi.</p>
 <span class="card-btn">MULA BELAJAR</span>
@@ -246,6 +241,7 @@ transition: all 0.1s;
 border-bottom: 0px solid #46a302;
 transform: translateY(4px);
 }
+
 </style>
 
 <script setup>
