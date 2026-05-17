@@ -54,3 +54,10 @@ Huruf Ra **boleh dibaca tebal atau nipis** jika memenuhi situasi di bawah[cite: 
 1. **Ra sukun**, sebelumnya huruf berbaris kasrah, dan selepasnya **huruf isti'la'** yang berbaris kasrah atau kasratain (baris dua di bawah). [cite: 467]
 2. **Ra sukun kerana diwaqafkan**, sebelumnya adalah huruf isti'la' yang bertanda sukun, dan huruf sebelum huruf isti'la' itu pula berbaris kasrah. [cite: 467]
    > Contoh: الْقِطْرِ - مِصْرَ
+
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

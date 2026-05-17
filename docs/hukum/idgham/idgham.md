@@ -53,3 +53,9 @@ Idgham bermaksud memasukkan[cite: 250]. Mutaqoribain pula bermaksud dua huruf ya
 ::: danger ⚠️ PENGECUALIAN (SAKTAH)
 Terdapat satu tempat yang dikecualikan dari bacaan idgham, iaitu: **كلا بل ران**[cite: 253, 255]. Ia dibaca dengan saktah[cite: 255].
 :::
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

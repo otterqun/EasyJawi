@@ -97,3 +97,9 @@ Sekiranya terdapat huruf sin (س) kecil di atas atau di bawah huruf shod (ص), m
 ::: danger ⚠️ PERINGATAN PENTING
 Bacaan-bacaan ganjil ini mestilah diambil dari guru secara bertalaqqi, agar tidak melakukan kesilapan dalam bacaan[cite: 601].
 :::
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

@@ -29,3 +29,10 @@ Tarqiq bermaksud menipiskan sebutan huruf Lam pada kalimah Allah.
 * **Bila Berlaku:** Wajib dibaca Tarqiq atau nipis sekiranya huruf sebelum Lafaz Al-Jalalah berbaris **kasrah (bawah)**.
 * **Contoh Bacaan:**
   > قُلِ اللهُ - إِلَّا بِاللهِ - أَمْرِ اللهِ - قُلِ اللَّهُمَّ
+
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

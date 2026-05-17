@@ -49,3 +49,9 @@ Terdapat 6 perkataan dalam Al-Qur'an yang tidak mengikut kaedah asas di atas[cit
 6 perkataan tersebut ialah[cite: 534, 535]:
 > امْشُوا - امْضُوا - اقْضُوا - اغْدُوا – ابْنُوا - ائْتُونِي
 :::
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

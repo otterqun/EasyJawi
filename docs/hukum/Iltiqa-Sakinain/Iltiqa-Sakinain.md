@@ -21,3 +21,9 @@ outline: deep
 > خَيْرًا الْوَصِيَّةَ - كَرَمَادٍ اشْتَدَّتْ - وَقَالَتِ الْيَهُودُ عُزَيْرٌ ابْنُ اللَّهِ
 
 *(Nota cara sebutan: Walaupun ejaannya ada tanwin, bila dibaca secara bersambung ia akan berbunyi berserta Nun (نِ) di bawahnya. Contohnya "Khairanil Wasiyyah", "Karamadinisytaddat", dan "Uzairunibnullah").*
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

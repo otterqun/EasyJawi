@@ -48,3 +48,9 @@ Semasa membaca Al-Qur'an, kelajuan bacaan kita terbahagi kepada empat tingkatan:
 2. **At-Tartil (Tenang & Sempurna):** Membaca Al-Qur'an dengan perlahan dan tenang[cite: 94]. Setiap huruf dilafazkan satu persatu dengan jelas dan tepat menurut makhraj dan sifatnya, serta terpelihara ukuran panjang pendeknya, dan berusaha untuk memahami maknanya[cite: 94]. Membaca dengan tartil adalah lebih baik dan diutamakan[cite: 95].
 3. **At-Tadwir (Sederhana):** Tingkatan ini berada pada pertengahan antara tartil dan hadr[cite: 97]. Ia merupakan bacaan yang sederhana, tidak terlalu cepat dan juga tidak terlalu perlahan[cite: 97, 98]. Kebiasaannya kelajuan ini dibaca dalam solat oleh para imam[cite: 98].
 4. **Al-Hadr (Paling Cepat):** Ini adalah tingkatan bacaan Al-Qur'an yang paling cepat, namun hukum tajwid masih lagi terjaga[cite: 100]. Al-Hadr biasanya diguna pakai oleh mereka yang sudah menghafal Al-Qur'an agar dapat mengulang hafalan dalam masa yang singkat[cite: 101].
+
+<script setup>
+import MarkComplete from './.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

@@ -103,3 +103,9 @@ Lazim bermaksud kebiasaan atau pasti. Ia **wajib** dibaca dengan kadar 6 harakat
 2. Huruf **ح ي ط ه ر** : Dibaca pendek 2 harakat sahaja[cite: 462].
 3. Huruf **Alif (ا)** : Dibaca tanpa sebarang mad[cite: 463].
 :::
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

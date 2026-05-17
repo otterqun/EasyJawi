@@ -58,3 +58,10 @@ Selain mim mati, kita juga perlu tahu cara bacaan bagi **Syaddah**. Syaddah adal
 
 **Contoh Bacaan:**
 > فَإِنَّهُمْ - أَمَّن يُجِيبُ - وَأَنَّ اللَّهَ [cite: 223]
+
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

@@ -22,3 +22,9 @@ Nak senang hafal tanda waqaf ni, ingat dua tanda yang paling ekstrem (bertentang
 * Nampak je **م** (Mim), wajib tekan brek terus (Mesti berhenti).
 * Nampak je **لا** (Lam Alif), terus tekan minyak (Dilarang berhenti).
 :::
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

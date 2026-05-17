@@ -38,3 +38,9 @@ Terdapat 14 juga huruf bagi As-Syamsiyyah, iaitu:
 
 **Contoh Bacaan:**
 > النَّاسَ - الرَّحْمَنُ - الشَّمْسُ - الطَّارِقِ – الزَّلْزَلَةُ [cite: 100]
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

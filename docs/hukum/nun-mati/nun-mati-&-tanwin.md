@@ -93,3 +93,9 @@ Terdapat 15 huruf kesemuanya:
 
 **Contoh Bacaan:**
 > عَن صَلَاتِهِمْ - عِندَ اللهِ - ثَمَناً قَلِيلاً [cite: 178]
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

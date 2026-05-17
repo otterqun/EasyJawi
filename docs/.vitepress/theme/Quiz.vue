@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import quizData from './data/soalan-tajwid.json'
 
 const topics = ref(quizData)
@@ -12,11 +12,32 @@ const isAnswered = ref(false)
 const score = ref(0)
 const quizCompleted = ref(false)
 
-// Fungsi untuk mula kuiz berdasarkan topik dipilih
+// STATE BARU UNTUK SIMPAN PROGRESS
+const savedProgress = ref({})
+
+// 1. Tarik data dari localStorage bila komponen dimuatkan
+onMounted(() => {
+  const data = localStorage.getItem('tajwid_quiz_progress')
+  if (data) {
+    savedProgress.value = JSON.parse(data)
+  }
+})
+
+// 2. Fungsi simpan markah ke localStorage
+const saveProgress = () => {
+  const topicId = selectedTopic.value.id
+  const currentBest = savedProgress.value[topicId] || 0
+  
+  // Hanya simpan kalau markah baru lebih tinggi atau belum pernah buat
+  if (score.value > currentBest || !savedProgress.value[topicId]) {
+    savedProgress.value[topicId] = score.value
+    localStorage.setItem('tajwid_quiz_progress', JSON.stringify(savedProgress.value))
+  }
+}
+
 const startQuiz = (topic) => {
   selectedTopic.value = topic
   currentQuestions.value = topic.questions
-  // Reset state kuiz
   currentQuestion.value = 0
   score.value = 0
   selectedOption.value = null
@@ -24,7 +45,6 @@ const startQuiz = (topic) => {
   quizCompleted.value = false
 }
 
-// Fungsi kembali ke menu topik
 const backToMenu = () => {
   selectedTopic.value = null
 }
@@ -45,12 +65,23 @@ const nextQuestion = () => {
     isAnswered.value = false
   } else {
     quizCompleted.value = true
+    saveProgress() // <--- Panggil fungsi simpan bila kuiz habis
   }
 }
 
 const restartQuiz = () => {
   startQuiz(selectedTopic.value)
 }
+
+// Fungsi untuk reset semua rekod localStorage
+const resetAllProgress = () => {
+  const confirmReset = confirm("Adakah anda pasti mahu memadam semua rekod markah kuiz?")
+  if (confirmReset) {
+    localStorage.removeItem('tajwid_quiz_progress') // Padam dari browser
+    savedProgress.value = {} // Kosongkan paparan di skrin serta-merta
+  }
+}
+
 </script>
 
 <template>
@@ -60,7 +91,11 @@ const restartQuiz = () => {
       <div class="quiz-header">
         <h3>Uji Minda Tajwid 🧠</h3>
       </div>
-      <p class="instruction">Pilih topik di bawah untuk mula menguji kefahaman anda:</p>
+      <p class="instruction">Pilih topik di bawah untuk mula menguji kefahaman anda: <div class="reset-section" v-if="Object.keys(savedProgress).length > 0">
+        <button @click="resetAllProgress" class="reset-data-btn">
+          🗑️ Padam Semua Rekod
+        </button>
+      </div></p>
       
       <div class="topic-grid">
         <button 
@@ -71,6 +106,14 @@ const restartQuiz = () => {
         >
           <span class="topic-title">{{ topic.title }}</span>
           <span class="topic-count">{{ topic.questions.length }} Soalan</span>
+          
+          <div 
+            v-if="savedProgress[topic.id] !== undefined" 
+            class="progress-badge"
+            :class="{ 'perfect-score': savedProgress[topic.id] === topic.questions.length }"
+          >
+            Markah Tertinggi: {{ savedProgress[topic.id] }} / {{ topic.questions.length }}
+          </div>
         </button>
       </div>
     </div>
@@ -214,4 +257,48 @@ const restartQuiz = () => {
 .result-box { text-align: center; padding: 2rem 0; }
 .score-text { font-size: 1.5rem; margin: 1.5rem 0; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* --- GAYA LENCANA PROGRESS --- */
+.progress-badge {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #f59e0b; /* Warna oren/emas */
+  background-color: rgba(245, 158, 11, 0.15);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #f59e0b;
+}
+
+.perfect-score {
+  color: #10b981; /* Warna hijau kalau full mark */
+  background-color: rgba(16, 185, 129, 0.15);
+  border-color: #10b981;
+}
+
+/* --- GAYA BUTANG RESET --- */
+.reset-section {
+  margin-top: 2rem;
+  text-align: center;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 1.5rem;
+}
+
+.reset-data-btn {
+  background-color: transparent;
+  color: #ef4444; /* Merah amaran */
+  border: 1px solid #ef4444;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.reset-data-btn:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
 </style>

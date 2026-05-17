@@ -45,3 +45,9 @@ Akbar bermaksud paling besar, merujuk kepada lantunan yang paling kuat[cite: 498
 ::: tip 📝 NOTA TAMBAHAN
 Ada pendapat yang menyatakan bahawa qalqalah hanya terbahagi kepada 2, tanpa disertakan Qalqalah Akbar[cite: 503]. Pendapat ini bahkan menggabungkan bacaan tersebut di dalam Qalqalah Kubra[cite: 504].
 :::
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />

@@ -64,3 +64,9 @@ Al-Khaisyum bermaksud Rongga Hidung[cite: 68].
 ::: info 👃 NOTA DENGUNG
 Makhraj Khaisyum hanya khusus untuk ghunnah (dengung) sahaja[cite: 68]. Dengung mestilah dikeluarkan melalui rongga hidung[cite: 68]. Dengung hanya berlaku pada huruf Mim (**م**) dan Nun (**ن**) yang berbaris mati dan syaddah (sabdu) sahaja[cite: 69].
 :::
+
+<script setup>
+import MarkComplete from '/.vitepress/theme/MarkComplete.vue'
+</script>
+
+<MarkComplete />
