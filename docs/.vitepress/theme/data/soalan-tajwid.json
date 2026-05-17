@@ -1,0 +1,492 @@
+[
+  {
+    "id": "pengenalan",
+    "title": "Pengenalan Tajwid",
+    "questions": [
+      {
+        "question": "Apakah hukum mengamalkan ilmu tajwid ketika membaca Al-Qur'an?",
+        "options": [
+          "Fardhu Kifayah",
+          "Sunat Muakkad",
+          "Fardhu 'Ain",
+          "Harus"
+        ],
+        "answerIndex": 2,
+        "explanation": "Mantap bro! Hukum amalkan tajwid masa baca Al-Quran tu Fardhu 'Ain, atau wajib ke atas setiap lelaki dan perempuan yang mukallaf[cite: 35]."
+      },
+      {
+        "question": "Dari sudut bahasa, apakah maksud Tajwid?",
+        "options": [
+          "Mengeluarkan huruf",
+          "Memperelokkan atau memperindahkan",
+          "Menyusun ayat",
+          "Membaca laju"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tepat sekali! Tajwid dari sudut bahasa bermaksud memperelokkan atau memperindahkan[cite: 28]."
+      },
+      {
+        "question": "Tingkatan bacaan manakah yang paling cepat?",
+        "options": [
+          "At-Tahqiq",
+          "At-Tartil",
+          "At-Tadwir",
+          "Al-Hadr"
+        ],
+        "answerIndex": 3,
+        "explanation": "Betul tu! Al-Hadr adalah tingkatan bacaan Al-Qur'an yang paling cepat, tapi hukum tajwid masih lagi terjaga[cite: 54, 55]."
+      }
+    ]
+  },
+  {
+    "id": "makhraj-huruf",
+    "title": "Makhraj Huruf",
+    "questions": [
+      {
+        "question": "Berapakah pembahagian umum bagi Makhraj Huruf?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
+        "answerIndex": 2,
+        "explanation": "Terbaik! Terdapat 5 pembahagian umum kesemuanya bagi makhraj huruf[cite: 66]."
+      },
+      {
+        "question": "Makhraj Al-Khaisyum (Rongga Hidung) khusus untuk bacaan apa?",
+        "options": [
+          "Ghunnah (dengung)",
+          "Qalqalah (lantunan)",
+          "Mad (panjang)",
+          "Saktah (berhenti sebentar)"
+        ],
+        "answerIndex": 0,
+        "explanation": "Kemas bro! Makhraj Khaisyum hanya khusus untuk ghunnah (dengung) sahaja[cite: 125]."
+      },
+      {
+        "question": "Huruf ا, و, dan ي keluar dari makhraj mana?",
+        "options": [
+          "Al-Halq (Kerongkong)",
+          "Al-Jauf (Rongga Mulut)",
+          "As-Syafatain (Bibir)",
+          "Al-Lisan (Lidah)"
+        ],
+        "answerIndex": 1,
+        "explanation": "Betul! Terdapat 3 huruf mad yang keluar dari rongga mulut (Al-Jauf) iaitu ا, و, ي[cite: 119, 120]."
+      }
+    ]
+  },
+  {
+    "id": "alif-lam",
+    "title": "Alif Lam Ma'rifah",
+    "questions": [
+      {
+        "question": "Bagaimanakah bunyi huruf Lam bagi hukum Alif Lam Al-Qamariyyah?",
+        "options": [
+          "Dinyatakan dengan jelas",
+          "Tidak disebut",
+          "Didengungkan 2 harakat",
+          "Dilantunkan"
+        ],
+        "answerIndex": 0,
+        "explanation": "Ngam! Bunyi alif lam dinyatakan dengan jelas bagi Al-Qamariyyah[cite: 157]."
+      },
+      {
+        "question": "Berapakah jumlah huruf Al-Qamariyyah dan As-Syamsiyyah masing-masing?",
+        "options": [
+          "10 huruf",
+          "12 huruf",
+          "14 huruf",
+          "15 huruf"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tepat! Huruf Al-Qamariyyah ada 14 dan As-Syamsiyyah juga ada 14[cite: 158, 164]."
+      },
+      {
+        "question": "Apakah tanda pengenalan Alif Lam As-Syamsiyyah dalam Rasm 'Uthmani?",
+        "options": [
+          "Tanda sukun pada huruf Lam",
+          "Tanda syaddah pada huruf selepas Alif Lam",
+          "Tanda mad pada Alif",
+          "Tanda titik bawah huruf Lam"
+        ],
+        "answerIndex": 1,
+        "explanation": "Betul bro! Ia dikenali dengan tanda syaddah (sabdu) pada huruf-huruf As-Syamsiyyah selepas alif lam[cite: 163]."
+      }
+    ]
+  },
+  {
+    "id": "nun-mati",
+    "title": "Hukum Bacaan Nun Mati & Tanwin",
+    "questions": [
+      {
+        "question": "Apakah cara bacaan bagi Izhar Halqi?",
+        "options": [
+          "Menyembunyikan bunyi",
+          "Mendengungkan 2 harakat",
+          "Menjelaskan sebutan",
+          "Memasukkan tanpa dengung"
+        ],
+        "answerIndex": 2,
+        "explanation": "Mantap! Cara bacaannya adalah dengan menjelaskan sebutan huruf nun mati atau tanwin tersebut[cite: 197]."
+      },
+      {
+        "question": "Berapakah huruf bagi Ikhfa' Haqiqi?",
+        "options": [
+          "4 huruf",
+          "6 huruf",
+          "14 huruf",
+          "15 huruf"
+        ],
+        "answerIndex": 3,
+        "explanation": "Hebat! Ikhfa Haqiqi berlaku apabila nun mati atau tanwin bertemu dengan salah satu daripada 15 huruf[cite: 240, 241]."
+      },
+      {
+        "question": "Di dalam kalimah manakah berlakunya hukum Izhar Mutlaq?",
+        "options": [
+          "مِن وَاقٍ",
+          "الدُّنْيَا",
+          "عِندَ اللهِ",
+          "مِن رَّبِّهِمْ"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tepat! 'الدُّنْيَا' adalah salah satu daripada 4 perkataan yang dibaca Izhar Mutlak di dalam Al-Qur'an[cite: 229, 230]."
+      }
+    ]
+  },
+  {
+    "id": "mim-mati",
+    "title": "Hukum Bacaan Mim Mati & Syaddah",
+    "questions": [
+      {
+        "question": "Apakah hukumnya apabila Mim Mati bertemu dengan huruf Ba (ب)?",
+        "options": [
+          "Idgham Mislain Soghir",
+          "Izhar Syafawi",
+          "Ikhfa' Syafawi",
+          "Iqlab"
+        ],
+        "answerIndex": 2,
+        "explanation": "Betul bro! Ia dinamakan Ikhfa' Syafawi dan dibaca dengung dua harakat[cite: 277, 280]."
+      },
+      {
+        "question": "Apakah syarat bagi hukum Izhar Syafawi?",
+        "options": [
+          "Mim mati bertemu Mim",
+          "Mim mati bertemu Ba",
+          "Mim mati bertemu nun",
+          "Mim mati bertemu huruf selain Mim dan Ba"
+        ],
+        "answerIndex": 3,
+        "explanation": "Ngam! Izhar Syafawi berlaku apabila mim mati bertemu dengan salah satu huruf hijaiyyah selain huruf mim dan ba[cite: 285]."
+      },
+      {
+        "question": "Apakah nama hukum bagi Mim Mati bertemu dengan huruf Mim (م)?",
+        "options": [
+          "Ikhfa' Syafawi",
+          "Idgham Mislain Soghir",
+          "Izhar Syafawi",
+          "Idgham Bila Ghunnah"
+        ],
+        "answerIndex": 1,
+        "explanation": "Mantap! Idgham Mislain Soghir berlaku apabila mim mati bertemu dengan huruf mim yang berbaris[cite: 268, 270]."
+      },
+      {
+        "question": "Bilakah dengung bagi huruf syaddah perlu dilakukan?",
+        "options": [
+          "Ketika berhenti sahaja",
+          "Ketika sambung bacaan sahaja",
+          "Samada ketika berhenti mahupun bersambung",
+          "Hanya di awal ayat"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ngam bro! Wajib didengungkan samada ada ketika berhenti mahupun ketika sambungkan bacaan[cite: 288]."
+      }
+    ]
+  },
+  {
+    "id": "idgham",
+    "title": "Jenis-Jenis Idgham",
+    "questions": [
+      {
+        "question": "Apakah maksud Idgham Mutamasilain?",
+        "options": [
+          "Dua huruf berhampiran jenis",
+          "Dua huruf berlainan makhraj",
+          "Dua huruf yang serupa",
+          "Dua huruf yang berlainan sifat"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tepat sekali! Mutamasilain bermaksud dua huruf yang serupa[cite: 300]."
+      },
+      {
+        "question": "Hukum Idgham Mutajanisain merujuk kepada pertemuan huruf yang macam mana?",
+        "options": [
+          "Sama makhraj, berlainan sifat",
+          "Lain makhraj, sama sifat",
+          "Serupa seratus peratus",
+          "Berjauhan makhraj"
+        ],
+        "answerIndex": 0,
+        "explanation": "Kemas! Mutajanisain berlaku apabila dua huruf yang sama pada mahkraj, tetapi berlainan pada sifat[cite: 307]."
+      },
+      {
+        "question": "Mengikut Riwayat Hafs, Idgham Mutaqoribain hanya berlaku pada pertemuan huruf apa?",
+        "options": [
+          "Ba dengan Mim",
+          "Ta dengan Tho",
+          "Lam dengan Ra & Qaf dengan Kaf",
+          "Sin dengan Syin"
+        ],
+        "answerIndex": 2,
+        "explanation": "Padu! Hukum ini hanya berlaku apabila huruf Lam (ل) dengan Ra (ر) dan huruf Qaf (ق) dengan Kaf (ك)[cite: 317]."
+      }
+    ]
+  },
+  {
+    "id": "mad",
+    "title": "Jenis-Jenis Mad",
+    "questions": [
+      {
+        "question": "Berapakah kadar bacaan bagi Mad Wajib Muttasil?",
+        "options": [
+          "2 harakat sahaja",
+          "4 atau 5 harakat",
+          "4, 5, atau 6 harakat",
+          "6 harakat wajib"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ngam! Mad Wajib Muttasil dibaca panjang 4, 5, atau 6 harakat[cite: 354]."
+      },
+      {
+        "question": "Hukum Mad Jaiz Munfasil terjadi dalam keadaan apa?",
+        "options": [
+          "Hamzah dan mad dalam satu perkataan",
+          "Hamzah dan mad dalam dua perkataan berlainan",
+          "Mad bertemu sabdu",
+          "Berhenti pada baris dua"
+        ],
+        "answerIndex": 1,
+        "explanation": "Betul tu! Munfasil (berpisah) bermaksud mad bertemu huruf hamzah dalam dua perkataan yang berlainan[cite: 358]."
+      },
+      {
+        "question": "Mad 'Iwadh berlaku apabila kita mewaqafkan bacaan pada akhir kalimah yang berbaris apa?",
+        "options": [
+          "Fathatain (Dua di atas)",
+          "Kasratain (Dua di bawah)",
+          "Dhommatain (Dua di depan)",
+          "Sukun"
+        ],
+        "answerIndex": 0,
+        "explanation": "Mantap bro! Mad ini terjadi apabila mewaqafkan bacaan pada akhir kalimah yang terdapat huruf berbaris fathatain[cite: 376]."
+      }
+    ]
+  },
+  {
+    "id": "ra-jalalah",
+    "title": "Hukum Ra & Lafaz Al-Jalalah",
+    "questions": [
+      {
+        "question": "Huruf Ra dibaca tebal (Tafkhim) apabila ia berbaris apa?",
+        "options": [
+          "Kasrah",
+          "Fathah atau Dhammah",
+          "Sukun sahaja",
+          "Dua di bawah"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tepat! Ra berbaris fathah atau dhammah wajib dibaca Tafkhim (tebal)[cite: 500]."
+      },
+      {
+        "question": "Apakah syarat untuk baca Ra dengan nipis (Tarqiq) jika ia sukun di pertengahan kalimah?",
+        "options": [
+          "Sebelumnya huruf berbaris kasrah dan selepasnya bukan huruf isti'la'",
+          "Sebelumnya huruf berbaris fathah",
+          "Sebelumnya huruf berbaris dhammah",
+          "Selepasnya huruf isti'la' berbaris fathah"
+        ],
+        "answerIndex": 0,
+        "explanation": "Betul! Ra sukun dibaca tarqiq jika sebelumnya huruf berbaris kasrah dan selepasnya bukan huruf isti'la'[cite: 500]."
+      },
+      {
+        "question": "Apakah maksud huruf Isti'la'?",
+        "options": [
+          "Huruf yang dibaca dengung",
+          "Huruf yang nipis sebutannya",
+          "Huruf yang lantang di hujung",
+          "Huruf yang bersifat tinggi pada sebutannya"
+        ],
+        "answerIndex": 3,
+        "explanation": "Hebat! Huruf Isti'la' adalah huruf yang bersifat tinggi pada sebutannya[cite: 502]."
+      },
+      {
+        "question": "Bilakah lafaz Al-Jalalah 'الله' dibaca tebal (Taghliz)?",
+        "options": [
+          "Jika huruf sebelumnya berbaris kasrah",
+          "Jika huruf sebelumnya berbaris fathah atau dhammah",
+          "Jika huruf selepasnya berbaris sukun",
+          "Semua keadaan"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ngam bro! Wajib dibaca Taghliz sekiranya huruf sebelum Lafaz Al-Jalalah berbaris fathah atau dhammah[cite: 508]."
+      }
+    ]
+  },
+  {
+    "id": "qalqalah",
+    "title": "Hukum Qalqalah",
+    "questions": [
+      {
+        "question": "Berapakah bilangan huruf Qalqalah?",
+        "options": [
+          "3 Huruf",
+          "4 Huruf",
+          "5 Huruf",
+          "6 Huruf"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tepat sekali! Huruf Qalqalah ada 5 iaitu ق, ط, ب, ج, د[cite: 514, 515]."
+      },
+      {
+        "question": "Apakah keadaan berlakunya Qalqalah Sughra?",
+        "options": [
+          "Bila huruf qalqalah berada di hujung kalimah tanpa sabdu",
+          "Bila huruf qalqalah berada di hujung kalimah dengan sabdu",
+          "Bila huruf qalqalah sukun berada di pertengahan kalimah",
+          "Bila dimulakan bacaan dengan huruf qalqalah"
+        ],
+        "answerIndex": 2,
+        "explanation": "Mantap! Ia terjadi apabila huruf qalqalah bertanda sukun berada di pertengahan kalimah[cite: 518]."
+      },
+      {
+        "question": "Qalqalah manakah yang mempunyai lantunan paling kuat?",
+        "options": [
+          "Qalqalah Sughra",
+          "Qalqalah Kubra",
+          "Qalqalah Akbar",
+          "Tiada beza lantunan"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tepat! Qalqalah Akbar merujuk kepada lantunan yang paling kuat akibat waqaf pada hujung kalimah yang bertanda syaddah[cite: 531, 532]."
+      }
+    ]
+  },
+  {
+    "id": "waqaf",
+    "title": "Tanda Waqaf",
+    "questions": [
+      {
+        "question": "Apakah maksud tanda waqaf 'لا'?",
+        "options": [
+          "Mesti berhenti",
+          "Dilarang berhenti",
+          "Boleh berhenti, boleh sambung",
+          "Berhenti lebih utama"
+        ],
+        "answerIndex": 1,
+        "explanation": "Betul bro! 'لا' adalah tanda 'Adamul Waqf yang bermaksud Dilarang berhenti[cite: 541]."
+      },
+      {
+        "question": "Jika jumpa tanda waqaf 'م', apakah cara bacaannya?",
+        "options": [
+          "Dilarang berhenti",
+          "Disambung lebih utama",
+          "Boleh berhenti di salah satu tanda",
+          "Mesti berhenti"
+        ],
+        "answerIndex": 3,
+        "explanation": "Ngam! Tanda 'م' adalah Waqaf Lazim yang bermaksud Mesti berhenti[cite: 541]."
+      },
+      {
+        "question": "Tanda Waqaf Mu'anaqah (tiga titik bertindih) membawa maksud apa?",
+        "options": [
+          "Mesti berhenti pada kedua-dua tanda",
+          "Boleh berhenti di salah satu tanda, tapi tak boleh di keduanya",
+          "Dilarang berhenti di kedua-duanya",
+          "Berhenti dengan nafas baru"
+        ],
+        "answerIndex": 1,
+        "explanation": "Terbaik! Boleh berhenti di salah satu tanda tersebut, namun tidak boleh berhenti di keduanya[cite: 541]."
+      }
+    ]
+  },
+  {
+    "id": "hamzah-wasal",
+    "title": "Cara Bacaan Hamzah Wasal",
+    "questions": [
+      {
+        "question": "Bagaimanakah bunyi baris Hamzah Wasal pada permulaan kata nama yang ada Alif Lam Ma'rifah (ال)?",
+        "options": [
+          "Fathah (Atas)",
+          "Kasrah (Bawah)",
+          "Dhammah (Depan)",
+          "Sukun (Mati)"
+        ],
+        "answerIndex": 0,
+        "explanation": "Betul tu! Cara bacaan hamzah yang dimulakan dengan alif lam ma'rifah adalah dengan baris fathah[cite: 549]."
+      },
+      {
+        "question": "Untuk kata perbuatan (Fi'il), jika huruf ketiga berbaris dhammah, Hamzah Wasal dibaca dengan baris apa?",
+        "options": [
+          "Fathah",
+          "Kasrah",
+          "Dhammah",
+          "Ikut sedap mulut"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ngam bro! Jika huruf ketiga berbaris dhammah, maka hamzahnya mestilah dibariskan dengan dhammah juga[cite: 561]."
+      },
+      {
+        "question": "Apakah simbol penanda Hamzah Wasal di dalam Rasm 'Uthmani?",
+        "options": [
+          "Tanda bulat sifar",
+          "Bentuk kepala huruf Shod",
+          "Tanda mad",
+          "Titik hitam pekat"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tepat! Diletakkan simbol seakan bentuk kepala huruf Shod pada huruf alif[cite: 546]."
+      }
+    ]
+  },
+  {
+    "id": "bacaan-gharib",
+    "title": "Bacaan Gharib & Iltiqa' Sakinain",
+    "questions": [
+      {
+        "question": "Apakah maksud Iltiqa' Sakinain?",
+        "options": [
+          "Pertemuan dua huruf mad",
+          "Pertemuan dua baris atas",
+          "Pertemuan dua huruf bertanda sukun",
+          "Pertemuan hamzah dan alif"
+        ],
+        "answerIndex": 2,
+        "explanation": "Mantap! Iltiqa Sakinain bermaksud pertemuan dua huruf bertanda sukun[cite: 572]."
+      },
+      {
+        "question": "Apakah cara bacaan bagi Saktah?",
+        "options": [
+          "Bunyi samar-samar antara hamzah dan alif",
+          "Muncungkan bibir mulut",
+          "Berhenti sejenak sambil menahan nafas tanpa ambil nafas baru",
+          "Pindahkan baris hamzah ke huruf sebelumnya"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tepat sekali! Saktah bermaksud berhenti sejenak atau seketika sambil menahan nafas (tanpa mengambil nafas yang baru)[cite: 591]."
+      },
+      {
+        "question": "Di dalam Riwayat Hafs, di surah manakah terdapatnya bacaan Tashil?",
+        "options": [
+          "Surah Al-Kahfi: 1",
+          "Surah Yaasin: 52",
+          "Surah Yusuf: 11",
+          "Surah Fussilat: 44"
+        ],
+        "answerIndex": 3,
+        "explanation": "Betul! Hanya terdapat satu tempat sahaja yang wajib dibaca dengan tashil iaitu pada Surah Fussilat: 44[cite: 605, 606]."
+      }
+    ]
+  }
+]

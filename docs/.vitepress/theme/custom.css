@@ -1,4 +1,7 @@
 /* docs/.vitepress/theme/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+
 
 :root {
   /* Ini warna untuk Light Mode (Hijau Zamrud) */
@@ -119,3 +122,23 @@
   line-height: 1.6;
   margin-bottom: 25px;
 }
+
+
+/* --- GAYA TULISAN AL-QURAN --- */
+.ayat-quran {
+  font-family: 'Scheherazade New', serif;
+  font-size: 2.5rem;
+  line-height: 2.2;
+  color: #10b981;
+  text-align: center;
+  direction: rtl;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  
+  /* TAMBAH 2 BARIS NI UNTUK FIX BARAI */
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1, "dlig" 1;
+}
+

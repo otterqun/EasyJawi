@@ -20,132 +20,45 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Mula Belajar', link: '/pengenalan' },
-      { text: 'Sumber Rujukan', link: '/sumber' }
+      { text: 'Sumber Rujukan', link: '/sumber' },
     ],
 
     // Menu kat bahagian tepi (Sidebar) - Konsep W3Schools
     sidebar: [
-      {
-        text: 'Asas Tajwid',
-        items: [
-          { text: 'Pengenalan', link: '/pengenalan' },
-        ]
-      },
-      {
-        text: 'Makhraj',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Alif Lam',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Hukum Nun Mati & Tanwin',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'Izhar Halqi', link: '#' },
-          { text: 'Idgham', link: '/hukum/nun-mati/idgham' },
-          { text: 'Ikhfa Hakiki', link: '#' },
-          { text: 'Iqlab', link: '#' }
-        ]
-      },
-      {
-        text: 'Mim Mati',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Syaddah',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Idgham',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Hukum Mad',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Hukum Ra',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Lam Jalalah',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Qalqalah',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Tanda Waqaf',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Hamzah Wasal',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: "Iltiqa' Sakinain",
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      },
-      {
-        text: 'Gharib',
-        collapsed: true, // Boleh tutup/buka menu
-        items: [
-          { text: 'item 1', link: '#' },
-          { text: 'item 2', link: '#' },
-        ]
-      }
-    ],
+    {
+      text: 'Asas Tajwid',
+      items: [
+        { text: 'Pengenalan', link: '/pengenalan' },
+      ]
+    },
+    {
+      text: 'Senarai Hukum Tajwid', // <-- INI AKAN JADI BOLD & HITAM PEKAT
+      collapsed: false, // Biar menu ni sentiasa terbuka
+      items: [
+        { text: 'Makhraj Huruf', link: '/hukum/makhraj/makhraj-huruf' },
+        { text: 'Alif Lam Ma\'rifah', link: '/hukum/alif-lam/alif-lam' },
+        { text: 'Nun Mati & Tanwin', link: '/hukum/nun-mati/nun-mati-&-tanwin' },
+        { text: 'Mim Mati & Nun Syaddah', link: '/hukum/mim-mati-&-nun-syaddah/mim-mati-&-nun-syaddah' },
+        { text: 'Idgham', link: '/hukum/idgham/idgham' },
+        { text: 'Hukum Mad', link: '/hukum/mad/mad' },
+        { text: 'Hukum Ra', link: '/hukum/ra/ra' },
+        { text: 'Lam Jalalah', link: '/hukum/lam/lam' },
+        { text: 'Qalqalah', link: '/hukum/qalqalah/qalqalah' },
+        { text: 'Tanda Waqaf', link: '/hukum/waqaf/waqaf' },
+        { text: 'Hamzah Wasal', link: '/hukum/hamzah-wasal/hamzah-wasal' },
+        { text: "Iltiqa' Sakinain", link: '/hukum/Iltiqa-Sakinain/Iltiqa-Sakinain' },
+        { text: 'Bacaan Gharib', link: '/hukum/gharib/gharib' }
+      ]
+    },
+    {
+      text: 'Lain-lain', // <-- INI PUN BOLD & HITAM
+      items: [
+        { text: 'Quiz', link: '/quiz' },
+        { text: 'Flashcarad', link: '/flashcard'},
+        { text: 'References', link: '/sumber' }
+      ]
+    }
+  ],
 
     // Footer
     footer: {

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "pengenalan",
+    "title": "Pengenalan Tajwid",
+    "cards": [
+      {
+        "front": "Apakah hukum mengamalkan tajwid ketika membaca Al-Qur'an? [cite: 35]",
+        "back": "Fardhu 'Ain ke atas setiap lelaki dan perempuan yang mukallaf. [cite: 35]"
+      },
+      {
+        "front": "Apakah tingkatan bacaan Al-Qur'an yang paling cepat? [cite: 54-55]",
+        "back": "Al-Hadr, iaitu tingkatan bacaan yang paling cepat tetapi hukum tajwid masih lagi terjaga. [cite: 54-55]"
+      }
+    ]
+  },
+  {
+    "id": "makhraj-huruf",
+    "title": "Makhraj Huruf",
+    "cards": [
+      {
+        "front": "Berapakah pembahagian umum bagi Makhraj Huruf? [cite: 66]",
+        "back": "Terdapat 5 pembahagian umum iaitu Al-Halq, Al-Lisan, As-Syafatain, Al-Jauf, dan Al-Khaisyum. [cite: 66, 68-124]"
+      },
+      {
+        "front": "Makhraj Al-Khaisyum (Rongga Hidung) khusus untuk sebutan apa? [cite: 124-125]",
+        "back": "Makhraj Khaisyum hanya khusus untuk ghunnah (dengung) sahaja. [cite: 125]"
+      }
+    ]
+  },
+  {
+    "id": "alif-lam",
+    "title": "Alif Lam Ma'rifah",
+    "cards": [
+      {
+        "front": "Maksud Alif Lam Al-Qamariyyah [cite: 154-157]",
+        "back": "Bunyi alif lam dinyatakan dengan jelas berserta tanda sukun pada huruf lam. [cite: 157]"
+      },
+      {
+        "front": "Apakah tanda pengenalan bagi Alif Lam As-Syamsiyyah? [cite: 161-163]",
+        "back": "Dikenali dengan tanda syaddah (sabdu) pada huruf-huruf As-Syamsiyyah yang terdapat selepas alif lam. [cite: 162-163]"
+      }
+    ]
+  },
+  {
+    "id": "nun-mati",
+    "title": "Hukum Bacaan Nun Mati & Tanwin",
+    "cards": [
+      {
+        "front": "Sebutkan huruf-huruf Izhar Halqi. [cite: 197]",
+        "back": "Terdapat 6 huruf iaitu ء, ه, ع, ح, غ, خ. [cite: 197]"
+      },
+      {
+        "front": "Apakah cara bacaan hukum Iqlab? [cite: 232-234]",
+        "back": "Mengubah atau menukarkan bunyi nun mati/tanwin menjadi bunyi huruf mim mati, serta di dengungkan dua harakat. [cite: 234]"
+      },
+      {
+        "front": "Sebutkan 4 perkataan yang dibaca dengan Izhar Mutlaq di dalam Al-Qur'an. [cite: 225-230]",
+        "back": "Ad-Dunya (الدُّنْيَا), Bunyanun (بُنْيَانٌ), Sinwanun (صِنْوَانٌ), dan Qinwanun (قِنْوَانٌ). [cite: 229-230]"
+      }
+    ]
+  },
+  {
+    "id": "mim-mati",
+    "title": "Hukum Bacaan Mim Mati",
+    "cards": [
+      {
+        "front": "Apakah hukum apabila Mim mati bertemu dengan huruf Mim (م)? [cite: 267-270]",
+        "back": "Idgham Mislain Soghir, dan bacaannya mesti didengungkan dengan kadar dua harakat. [cite: 267-270]"
+      },
+      {
+        "front": "Apakah hukum apabila Mim mati bertemu dengan huruf Ba (ب)? [cite: 277-280]",
+        "back": "Ikhfa' Syafawi, dan bacaannya mesti didengungkan dengan kadar dua harakat. [cite: 277-280]"
+      }
+    ]
+  },
+  {
+    "id": "idgham",
+    "title": "Jenis-Jenis Idgham",
+    "cards": [
+      {
+        "front": "Maksud Idgham Mutamasilain [cite: 299-300]",
+        "back": "Memasukkan dua huruf yang serupa (sama). [cite: 300]"
+      },
+      {
+        "front": "Maksud Idgham Mutajanisain [cite: 305-307]",
+        "back": "Memasukkan dua huruf yang sama pada makhraj, tetapi berlainan pada sifat. [cite: 307]"
+      }
+    ]
+  },
+  {
+    "id": "mad",
+    "title": "Jenis-Jenis Mad",
+    "cards": [
+      {
+        "front": "Berapakah kadar bacaan bagi Mad Wajib Muttasil? [cite: 352-354]",
+        "back": "Dibaca panjang 4, 5, atau 6 harakat. [cite: 354]"
+      },
+      {
+        "front": "Apakah yang dimaksudkan dengan Mad 'Aridh Lissukun? [cite: 361-363]",
+        "back": "Mad yang mendatang kerana sukun, terjadi apabila diwaqafkan bacaan pada huruf selepas mad asli. [cite: 362]"
+      },
+      {
+        "front": "Bilakah berlakunya Mad Lin? [cite: 370-372]",
+        "back": "Hanya berlaku pada huruf Wau (و) dan Ya (ي) yang sebelumnya berbaris fathah, dan huruf akhirnya diwaqafkan. [cite: 372]"
+      }
+    ]
+  },
+  {
+    "id": "ra-jalalah",
+    "title": "Hukum Ra & Lafaz Al-Jalalah",
+    "cards": [
+      {
+        "front": "Bilakah huruf Ra dibaca Tafkhim (tebal)? [cite: 500]",
+        "back": "Apabila Ra berbaris fathah atau dhammah, atau sukun sebelumnya berbaris fathah atau dhammah. [cite: 500]"
+      },
+      {
+        "front": "Bilakah lafaz Al-Jalalah (الله) dibaca Tarqiq (nipis)? [cite: 508]",
+        "back": "Wajib dibaca nipis sekiranya huruf sebelum Lafaz Al-Jalalah berbaris kasrah. [cite: 508]"
+      }
+    ]
+  },
+  {
+    "id": "qalqalah",
+    "title": "Hukum Qalqalah",
+    "cards": [
+      {
+        "front": "Berapakah bilangan huruf Qalqalah? [cite: 514-515]",
+        "back": "Ada 5 huruf iaitu ق, ط, ب, ج, د. [cite: 514-515]"
+      },
+      {
+        "front": "Apakah yang dimaksudkan dengan Qalqalah Akbar? [cite: 529-532]",
+        "back": "Lantunan paling kuat, berlaku apabila waqaf pada huruf qalqalah yang bertanda syaddah di hujung kalimah. [cite: 531-532]"
+      }
+    ]
+  },
+  {
+    "id": "waqaf",
+    "title": "Tanda Waqaf",
+    "cards": [
+      {
+        "front": "Maksud Tanda Waqaf Lazim (م) [cite: 541]",
+        "back": "Mesti berhenti. [cite: 541]"
+      },
+      {
+        "front": "Maksud Tanda Waqaf Mu'anaqah [cite: 541]",
+        "back": "Boleh berhenti di salah satu tanda tersebut, namun tidak boleh berhenti di keduanya. [cite: 541]"
+      }
+    ]
+  },
+  {
+    "id": "hamzah-wasal",
+    "title": "Hamzah Wasal & Iltiqa' Sakinain",
+    "cards": [
+      {
+        "front": "Bagaimanakah cara bacaan Hamzah Wasal pada kata nama yang dimulakan dengan Alif Lam Ma'rifah (ال)? [cite: 549]",
+        "back": "Dibaca dengan baris fathah. [cite: 549]"
+      },
+      {
+        "front": "Maksud Iltiqa' Sakinain [cite: 570-572]",
+        "back": "Pertemuan dua huruf bertanda sukun. [cite: 572]"
+      }
+    ]
+  },
+  {
+    "id": "gharib",
+    "title": "Bacaan Gharib",
+    "cards": [
+      {
+        "front": "Apakah maksud Saktah? [cite: 590-591]",
+        "back": "Berhenti sejenak atau seketika sambil menahan nafas (tanpa mengambil nafas yang baru). [cite: 591]"
+      },
+      {
+        "front": "Di manakah letaknya hukum Tashil menurut Riwayat Hafs? [cite: 601-606]",
+        "back": "Hanya terdapat satu tempat sahaja iaitu pada Surah Fussilat, ayat 44. [cite: 605-606]"
+      },
+      {
+        "front": "Apakah maksud Isymam? [cite: 611-612]",
+        "back": "Bacaan yang memuncungkan kedua bibir mulut. [cite: 612]"
+      }
+    ]
+  }
+]

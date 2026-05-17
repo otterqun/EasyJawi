@@ -46,3 +46,5 @@ Sila rujuk sumber yang tertera yang merupkan tempat saya mendapatkan maklumat da
 
 
 Sekiranya terdapat sumber baru , saya akan tambah dari masa ke masa
+
+<!-- https://ismail5959.weebly.com/hukum-tajwid.html -->

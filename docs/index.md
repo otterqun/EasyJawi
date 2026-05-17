@@ -14,7 +14,7 @@ hero:
       link: pengenalan
     - theme: alt
       text: LIHAT SILIBUS
-      link: /hukum/nun-mati/idgham
+      link: /hukum/makhraj/makhraj-huruf
 
 features:
   - title: 📝 Belajar Ala W3Schools
